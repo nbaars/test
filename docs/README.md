@@ -2,6 +2,13 @@
 
 This serves the Github pages for the landing page of WebGoat.
 
+# Running locally
+
+```
+docker run -t --rm -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
+```
+
+And then browse to http://localhost:4000/docs
 
 # Thanks to
 
@@ -10,3 +17,4 @@ This serves the Github pages for the landing page of WebGoat.
 ## Copyright and License
 
 Copyright 2013-2018 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-freelancer/blob/gh-pages/LICENSE) license.
+
